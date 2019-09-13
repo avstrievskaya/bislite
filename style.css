@@ -348,6 +348,7 @@ background-color: #dc5735;
     font-size: 15px;
     line-height: 20px;
     text-transform: uppercase;
+    text-decoration: none;
     float: left;
 }
 
@@ -726,15 +727,7 @@ background-color: #dc5735;
 .footer_box{
     display: inline-block;
     vertical-align: top;
-    padding: 0 17px 9px 0;
-}
-
-.footer_box:nth-child(3){
-    padding-right: 0;
-}
-
-.footer_box:nth-child(6){
-    padding-right: 0;
+    padding: 9px 0 0 10px;
 }
 
 .footer_copyright{
