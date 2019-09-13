@@ -322,6 +322,12 @@ background-color: #dc5735;
     background-position: center;
  }
 
+ .fourth{
+    background-image: url(image/plane_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
  .main_menu_box_2{
     max-width: 206px;
     padding-bottom: 20px;
