@@ -206,6 +206,15 @@ background-color: #dc5735;
     vertical-align: top;
 }
 
+.header_ban_button_img{
+    border: none;
+}
+
+.header_ban_button_img:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
 .cup{
     position: relative;
     left: 64px;
@@ -215,12 +224,12 @@ background-color: #dc5735;
     width: 425px;
 }
 
-.header_ban_buttom{
+.header_ban_button{
     margin: 12px 0 0 0;
     text-align: center;
 }
 
-.header_ban_buttom_img{
+.header_ban_button_img{
     display: inline-block;
     vertical-align: top;
     margin-right: 17px;
@@ -228,10 +237,6 @@ background-color: #dc5735;
     height: 14px;
     background-color: #71a3a7;
     border-radius: 50%;
-}
-
-.header_ban_buttom_img:nth-child(3){
-    background-color: #fff;
 }
 
 .main_menu{
