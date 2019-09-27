@@ -92,6 +92,7 @@
     font-weight: 900;
     font-size: 50px;
     float: left;
+    margin-top: 10px;
 }
 
 .header_title_s{
@@ -112,13 +113,15 @@
 .header_item{
     display: inline-block;
     vertical-align: top;
-    margin-left: 45px;
+    margin-left: 25px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    padding: 10px;
 }
 
 .header_item:hover{
     background-color: #fff;
     border-top: 5px solid #2aacc8;
-    border-bottom: 5px solid #2aacc8;
 }
 
 .header_link:hover{
@@ -147,11 +150,29 @@
 }
 
 .submenu{
-    opacity: 0;
+    display: none;
 	width: 200px;
     position: absolute;
     background-color: #fff;
     z-index: 1000;
+    left: 0;
+    top: 41px;
+    border-bottom: 5px solid #2aacc8;
+}
+
+.submenu_item{
+    max-height: 36px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.submenu_item:last-child{
+    border-bottom:none;
+}
+
+.submenu_item:last-child{
+    margin-bottom: 5px;
 }
 
 .submenu_link{
@@ -161,7 +182,7 @@
     font-size: 13px;
     line-height: 36px;
     text-decoration: none;
-    padding: 15px 20px 15px 10px;
+    padding: 0px 20px 15px 10px;
 }
 
 .submenu_link:hover{
@@ -172,14 +193,6 @@
 .dropdown_item:hover .submenu{
     display: block;
     opacity: 1;
-}
-
-.submenu_item{
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.submenu_item:last-child{
-    border-bottom: 5px solid #2aacc8;
 }
 
 .header_ban{
@@ -436,6 +449,7 @@ background-color: #dc5735;
 
 .dropdown_link { 
     margin: 29px auto;
+    text-decoration: none;
 }
 
 .dropdown_link_img { 
@@ -733,6 +747,7 @@ background-color: #dc5735;
     line-height: 20px;
     text-transform: uppercase;
     margin-bottom: 21px;
+    margin-left: 10px;
 }
 
 .footer_box{
